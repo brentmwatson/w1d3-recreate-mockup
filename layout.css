@@ -1,0 +1,56 @@
+* {
+
+  border: 1px solid red;
+  box-sizing: border-box;
+
+}
+
+img{
+  width:100%;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.grid {
+
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+/*.row{
+  display: block;
+  float: left;
+  clear: both;
+
+}*/
+
+.column {
+  display:block;
+  float:left;
+  padding: 20px;
+  width: 33%;
+
+
+}
+.text-columns{
+
+  columns: 5;
+
+}
+#banner{
+position: fixed;
+z-index: 1;
+top: 25;
+left: -50 ;
+background-color: rgb(255, 45, 112);
+color: #FFFFFF;
+padding: 15px;
+width: 200px;
+text-align: center;
+transform: rotate(-45);
+box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+
+}

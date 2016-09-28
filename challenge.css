@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+}
+.box{
+  background: red;
+  display: inline-block;
+  padding: 20px;
+  height: 30vw;
+  width: 30vw;
+}
