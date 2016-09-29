@@ -1,8 +1,161 @@
+
 *{
   /* collasp borders into the box USE ON EVERY CSS*/
   box-sizing: border-box;
 }
-#body {
+/*SECTION formatting*/
+nav{
+
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+header{
+
+  background: url(../img/background.jpg);
+  max-width: 1366px;
+  height: 330px;
+  background-position: top;
+  background-size: cover;
+  text-align:center;
+  vertical-align: middle;
+}
+
+main{
+
+}
+
+footer{
+
+  height: 60px;
+  max-width: 1366;
+  background-color: #000000;
+
+}
+
+/*TEXT/FONT Frormatting*/
+h1{
+
+  font-weight: normal;
+  color: white;
+  font-size: 45px;
+  line-height: .5em;
+  text-shadow: 1px 0 1px black;
+
+}
+
+h2{
+
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: lighter;
+  letter-spacing: 2px;
+
+}
+
+h3{
+
+  font-size: 90px;
+  color: #ffffff;
+  font-weight: lighter;;
+
+}
+
+h4{
+
+  font-size: 15px;
+  color: lightgrey;
+  font-weight: normal;
+  letter-spacing: 1px;
+
+}
+
+h5{
+
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+
+}
+p{
+
+  color: grey;
+  font-size: 13px;
+  line-height: 1.5em;
+
+}
+
+/*CLASSES- to be used repeatedly*/
+.navigation{
+
+  color: grey;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0 15px 0 15px;
+
+}
+/*center rows on page*/
+.row{
+
+  text-align: center;
+
+}
+
+/*format columns*/
+.optionColumn{
+  width: 25%;
+  display: inline-block;
+}
+.option5{
+  background-color: Green;
+}
+.option25{
+  background-color: #000099;
+}
+.option45{
+  background-color: black;
+}
+
+
+.optionDetails{
+  background-color: #e8e8ee;
+  border:1px solid darkgrey;
+}
+.optionDetailsChoose{
+  background-color: #ffffff;
+}
+
+.infoColumn{
+
+  text-align: left;
+  vertical-align: top;
+  width: 30%;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.footerLink{
+  color: #ffffff;
+
+}
+
+/*IDs- to be used once*/
+#navigationSelected{
+  color: #000000;
+}
+#headertext{
+  padding: 120px;
+}
+#footer{
+  padding-top: 20px;
+  color: darkgrey;
+  text-align: center;
+}
+
+/*NOTES FROM CLASS TO KEEP DO NOT PENALIZE*/
+/*#body {
   padding: 200px;
   background-color: pink;
 }
@@ -15,8 +168,8 @@ padding: 0;
 
 body {
  /*text-align: center;*/
- padding: 100px;
- background-color: green;
+/* padding: 100px;
+
 }
 
 .box {
@@ -29,5 +182,3 @@ body {
  /*overflow: hidden; /* hides things outside of box*/
 /*overflow-y: auto;
 overflow-x: hidden;*/
-
-}
